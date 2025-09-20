@@ -1,2 +1,5 @@
 SELENIUM IS A AUTOMATION TOOL
 IT WORKS WITH JAVA
+
+janbask is a training institute
+Som is a QA trainer
