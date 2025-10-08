@@ -17,6 +17,10 @@ public class StrFunc {
 		String out=reverseWords("Janbask"); 
 		System.out.println(out);
 		
+		//Welcome to Janbask training
+		//training Janbask to Welcome
+		//Hint: String.split[]
+		
        
 
 	}
