@@ -27,10 +27,6 @@ public class ING implements ReserveBank {
 		System.out.println("ING insurance is 100$");
 	}
 
-	@Override
-	public void kyc() {
-		// TODO Auto-generated method stub
-		
-	}
+
 
 }

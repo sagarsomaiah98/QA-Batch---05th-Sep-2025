@@ -7,6 +7,5 @@ public interface ReserveBank {
 	public void savings();
 	public void loans();
 	public void insurance();
-	public void kyc();
 	
 }

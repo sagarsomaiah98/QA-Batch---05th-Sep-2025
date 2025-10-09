@@ -28,11 +28,8 @@ public class WestPac implements ReserveBank {
 	  
   }
 
-@Override
-public void kyc() {
-	// TODO Auto-generated method stub
-	
-}
+
+
 
 
 }
