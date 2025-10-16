@@ -3,8 +3,12 @@ public class SwapNumbers {
 	
 	public void swap(int a, int b) {
 		
-		System.out.println(a+" ->"+ a);
-		System.out.println(b+" ->"+b);
+		
+		 int temp = a;
+	        a = b;
+	        b = temp;
+
+	        System.out.println("After swapping: a = " + a + ", b = " + b);
 	}
 
 	public static void main(String[] args) {

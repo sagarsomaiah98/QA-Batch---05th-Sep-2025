@@ -15,8 +15,14 @@ public class SequenceNumbers {
 	 */
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		 for (int i = 1; i <= 9; i++) {
+	            // Inner loop for printing numbers in each row
+	            for (int j = 1; j <= i; j++) {
+	                System.out.print(j);
+	            }
+	            // Move to next line after each row
+	            System.out.println();
+	        }
+	    }
 	}
 
-}

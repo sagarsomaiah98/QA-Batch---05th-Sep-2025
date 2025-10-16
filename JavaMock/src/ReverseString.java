@@ -2,10 +2,20 @@
 public class ReverseString {
 	
 	public static String reverse(String input) {
-		String reverse = null;
+		 String str = input;
+
+	        String reversed = "";
+
+	        // Loop to reverse the string
+	        for (int i = str.length() - 1; i >= 0; i--) {
+	            reversed = reversed + str.charAt(i);
+	        }
+
+	        // Display result
+	        System.out.println("Reversed string: " + reversed);
 		
 		
-		return reverse;
+		return reversed;
 		
 	}
 
