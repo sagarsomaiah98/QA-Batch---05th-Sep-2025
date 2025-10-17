@@ -4,19 +4,28 @@ public class ArrayCopytoArray {
 	//copy from one array arr to another empty array output and print it
 	
 	
-	public void copyArray(int[] arr) {
-		int output[] = new int[arr.length];
-		
-		
-		System.out.println(Arrays.toString(output));
-		
-		
-	}
+
+	
 
 	public static void main(String[] args) {
-		int arr[] = {3, 2, -1, 9, -8, 6, -2,-15,20,11,-13};
-		ArrayCopytoArray ac = new ArrayCopytoArray();
-		ac.copyArray(arr);
+		  // Original array
+        int[] original = {10, 20, 30, 40, 50};
+
+        // Create a new array with same length
+        int[] copy = new int[original.length];
+
+        // Copy elements one by one
+        for (int i = 0; i < original.length; i++) {
+            copy[i] = original[i];
+        }
+
+        // Display copied array
+        System.out.println("Elements of copied array:");
+        for (int i = 0; i < copy.length; i++) {
+            System.out.println(copy[i]);
+        }
+    }
+}
 		
 
 	}

@@ -1,21 +1,18 @@
 
 public class SumArray {
 	
-	//Write a Java program to sum values of an array
-	//int[] arr={2,5,6,10,12,9,13,18,20};
-	//2+5+6+10+12+9+13+18+20
-	public int sum(int[] arr) {
-		int sum=0;
-		
-		
-		return sum;
-	}
 
 	public static void main(String[] args) {
 		
-	int[] arr={2,5,6,10,12,9,13,18,20};
-      SumArray s= new SumArray();
-      System.out.println(s.sum(arr));		  
-	}
+		  int[] numbers = {5, 10, 15, 20, 25};
 
-}
+	        int sum = 0;
+
+	        // Loop through array and add elements
+	        for (int num : numbers) {
+	            sum += num;
+	        }
+
+	        System.out.println("The sum of all elements in the array is: " + sum);
+	    }
+	}
