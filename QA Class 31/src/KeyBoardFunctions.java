@@ -20,7 +20,7 @@ public class KeyBoardFunctions {
          driver.findElement(By.xpath("//textarea[@id='currentAddress']")).sendKeys(Keys.TAB);
          Thread.sleep(1000);
          driver.findElement(By.xpath("//textarea[@id='permanentAddress']")).sendKeys(Keys.chord(Keys.CONTROL,"v"));
-         
+         driver.quit();
 	     
 	}
 	
