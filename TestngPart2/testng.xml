@@ -6,7 +6,7 @@
       <class name="SauceTests.LoginTest"/>
       <class name="SauceTests.AddToCart"/>
       <class name="SauceTests.LogOutTest"/>
-       <class name="SauceTests.LogOutTest"/>
+       <class name="AssertionEx"/>
     </classes>
   </test> <!-- SauceTest -->
 </suite> <!-- SauceSuite -->
