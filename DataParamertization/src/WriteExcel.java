@@ -16,10 +16,11 @@ public class WriteExcel {
 		Sheet s2 = wb.createSheet("SHEET2");
 		
 		for(int i=0;i<10;i++) {
+			Row row = s1.createRow(i);
 			for(int j=0;j<10;j++) {
 		
-			Row row = s1.createRow(i);
-			row.createCell(i).setCellValue(j);
+			
+			row.createCell(j).setCellValue(j);
 		}
 		
 		}
