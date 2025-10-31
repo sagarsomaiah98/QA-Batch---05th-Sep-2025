@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 import pages.LoginPage;
 import testBase.TestBase;
+import testUtil.Util;
 
 public class LoginTest extends TestBase {
 	
@@ -21,13 +22,14 @@ public class LoginTest extends TestBase {
 		
 		LoginPage login= new LoginPage();
 		login.login("standard_user", "secret_sauce");
-		
+		Util.Screenshot();
 		
 	}
 	@Test(priority=2)
 	public void inValidLogin() throws IOException {
 		LoginPage login= new LoginPage();
 		login.login("username", "secret_sauce");
+		Util.Screenshot();
 		
 		
 	}

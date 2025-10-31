@@ -44,7 +44,7 @@ public class TestBase {
 			
 		}
 	   driver.manage().window().maximize();
-	   driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(timeout));
+	  // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(timeout));
 	   driver.get(url);
 		
 	}
