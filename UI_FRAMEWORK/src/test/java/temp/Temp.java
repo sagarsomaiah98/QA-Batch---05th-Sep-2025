@@ -11,7 +11,7 @@ public class Temp {
 		Properties prop= new Properties();
 		FileInputStream fis= new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\config\\config.properties");
 		prop.load(fis);
-		System.out.println(prop.get("browser"));
+		System.out.println(prop.getProperty("browser"));
 		//System.out.println(System.getProperty("user.dir"));
 		
 		

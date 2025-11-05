@@ -15,12 +15,13 @@ public class HomeTest extends TestBase{
 	@BeforeMethod
 	public void init() throws IOException {
 		intialization();
+		LoginPage login= new LoginPage();
+		login.login("standard_user", "secret_sauce");
 	}
 	
 	 @Test(priority=1)
 	public void addtoCart() throws IOException {
-		LoginPage login= new LoginPage();
-		login.login("standard_user", "secret_sauce");
+		
 		HomePage home= new HomePage();
 		home.addtocart();
 		Util.Screenshot();
@@ -28,8 +29,6 @@ public class HomeTest extends TestBase{
 	
 	@Test(priority=2)
 	public void removeFromCart() throws IOException {
-		LoginPage login= new LoginPage();
-		login.login("standard_user", "secret_sauce");
 		HomePage home= new HomePage();
 		try {
 			home.removeFromCart();
